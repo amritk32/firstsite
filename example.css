@@ -1,0 +1,261 @@
+
+body{
+background-color: azure;
+animation-name:a;
+animation-duration:8s;
+animation-iteration-count: infinite;
+animation-delay:2s;
+overflow-x: hidden;
+}
+.header{
+  max-width: 1300px;
+  margin: 0 auto;
+}
+.H1-style{
+  text-align: center;
+  text-decoration: underline;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 75px;
+  color: black;
+  background-color: aqua;
+  border:10px solid gold;
+}
+@keyframes a{
+
+0%{background-color: rgb(185, 174, 174);}
+5%{background-color: yellow;}
+10%{background-color: chartreuse;}
+20%{background-color: cadetblue;}
+30%{background-color: cyan;}
+40%{background-color: red;}
+80%{background-color: purple;}
+120%{background-color:purple;}
+160%{background-color: lime;}
+200%{background-color: mediumblue;}
+220%{background-color:orangered;}
+240%{background-color: royalblue;}
+280%{background-color: springgreen;}
+300%{background-color:red;}
+320%{background-color: black;}
+}
+
+
+
+@media (max-width: 1280px)
+{
+body{
+background-color: rgb(18, 0, 179);
+}
+.H1-style{
+color:rgb(0, 0, 0);
+font-size: 75px;
+}
+.image{
+  width: 500px;
+  height: 629px;
+  border:8px solid black;
+}
+
+}
+@media (max-width: 768px)
+{
+body{
+background-color: rgb(179, 0, 0);
+}
+.H1-style{
+  color:rgb(0, 0, 0);
+  font-size: 60px;
+}
+.image{
+  width: 400px;
+  height: 529px;
+  border:8px solid black;
+}
+
+}
+@media( max-width: 480px) 
+{
+body{
+background-color: hotpink;
+}
+.H1-style{
+  color:rgb(0, 0, 0);
+  font-size: 50px;
+}
+.image{
+  width: 300px;
+  height: 429px;
+  border:8px solid black;
+  }
+
+}
+  
+
+p{text-align:left;
+    
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size:35px;
+color:black;
+background-color:chartreuse;
+border-top: 5px solid red;
+border-bottom: 6px solid red;
+border-left: 6px solid red;
+border-right: 6px solid red;
+}
+
+button{background-color:yellowgreen;
+    width: 120px;
+    height:40px;
+    text-align: center;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+    font-size:20px;
+    width:140px;
+    height:40px;
+    color: white;
+    border-top:3px solid black;
+    border-bottom:3px solid black;
+    border-left:3px solid black;
+    border-right:3px solid black;
+}
+
+.image{
+width: 500px;
+height: 629px;
+border:8px solid black;
+}
+
+body{
+  background-color: azure;
+  animation-name:a;
+  animation-duration:8s;
+  animation-iteration-count: infinite;
+  animation-delay:2s;}
+  
+  @keyframes a{
+  
+  0%{background-color: white;}
+  5%{background-color: yellow;}
+  10%{background-color: chartreuse;}
+  20%{background-color: cadetblue;}
+  30%{background-color: cyan;}
+  40%{background-color: red;}
+  80%{background-color: purple;}
+  120%{background-color:purple;}
+  160%{background-color: lime;}
+  200%{background-color: mediumblue;}
+  220%{background-color:orangered;}
+  240%{background-color: royalblue;}
+  280%{background-color: springgreen;}
+  300%{background-color:red;}
+  320%{background-color: black;}
+  }
+
+h2{text-align:center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    color:white;
+    text-decoration:none;
+    border-bottom:6px solid red;
+    background-color: springgreen;
+    border-top: 6px solid red;
+    text-decoration: underline;
+   
+}
+
+
+
+h3{
+    border-bottom:7px solid red;
+}
+
+h4{
+    border-bottom: 7px solid yellow;
+}
+
+h5{
+    border-bottom: 7px solid purple;
+}
+h6{
+    font-size: 25px;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h7{
+background-color: cyan;
+border-bottom:7px solid gold;
+border-top: 7px solid gold;
+border-right: 7px solid gold;
+border-left: 7px solid gold;
+color: black;
+font-size: 40px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+text-align: center;
+}
+
+h8{
+text-align:left;
+text-decoration: none;
+background-color: yellow;
+border-bottom:7px solid red;
+border-left:7px solid red;
+border-right:7px solid red;
+border-top:7px solid red;
+font-size:35px;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+h10{
+font-size:35px;
+font-family:monospace;
+text-align: right;
+
+}
+
+
+
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+
+ 
